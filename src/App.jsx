@@ -1,5 +1,6 @@
 import { Routes,Route } from 'react-router-dom'
 import Footer from './components/Footer' 
+import Main from './components/Main'
 import Header from './components/Header'
 import Contact from './Pages/Contact'
 import Home from './Pages/Home'
@@ -12,8 +13,23 @@ import './App.css'
 const App =()=>{
   return (
     <>
-   
-  <Header/>
+        <div className="App">
+        
+        <Header />
+        <main className='card'>
+        
+          <Routes>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="/galerie" element={<Galerie />}></Route>
+            <Route path="/temoignages" element={<Temoignages />}></Route>
+            <Route path="/contact" element={<Contact />}></Route>
+            <Route path="*" element={<PageNotFound />}/>
+          </Routes>
+          
+        </main>
+        <Footer />
+      </div>
+
      
     </>
   )

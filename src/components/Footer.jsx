@@ -1,3 +1,5 @@
+import Nav from 'react-bootstrap/Nav';
+
 const Footer = ()=> {
 
     return (
@@ -14,7 +16,13 @@ const Footer = ()=> {
                
                </article>
                <article className="liens">
-       
+               <h4>Liens Utiles</h4>
+               <Nav.Link href="/home">Home</Nav.Link>
+            <Nav.Link href="/Contact">Contact</Nav.Link>
+            <Nav.Link href="/MentionLegale">MentionLegale</Nav.Link>
+            <Nav.Link href="/Portfolio">Portfolio</Nav.Link>
+            <Nav.Link href="/ProfilGithub">Profil Github</Nav.Link>
+            <Nav.Link href="/Services">Services</Nav.Link>
                </article>
 
                <article className="realisation">
