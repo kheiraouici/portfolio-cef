@@ -13,22 +13,23 @@ import './App.css'
 const App =()=>{
   return (
     <>
-        <div className="App">
+        
         
         <Header />
-        <main className='card'>
+       
         
           <Routes>
             <Route path="/" element={<Home />}></Route>
-            <Route path="/galerie" element={<Galerie />}></Route>
-            <Route path="/temoignages" element={<Temoignages />}></Route>
-            <Route path="/contact" element={<Contact />}></Route>
-            <Route path="*" element={<PageNotFound />}/>
+            <Route path="/Contact" element={<Contact/>}></Route>
+            <Route path="/MentionLegale" element={<MentionLegale />}></Route>
+            <Route path="/Portfolio" element={<Portfolio/>}></Route>
+            <Route path="/ProfilGithub" element={<ProfilGithub/>}></Route>
+            <Route path="/Services" element={<Services/>}></Route>
           </Routes>
           
-        </main>
+          <Main/>
         <Footer />
-      </div>
+      
 
      
     </>
