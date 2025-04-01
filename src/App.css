@@ -4,7 +4,12 @@
   padding: 2rem;
   text-align: center;
 }
-
+#Project{
+background-image:url(./assets/images/banner.jpg) ;
+}
+hr{
+  color: blue;
+}
 .foot{
   background-color: black;
   color: white;

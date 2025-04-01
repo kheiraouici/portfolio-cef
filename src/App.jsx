@@ -19,7 +19,7 @@ const App =()=>{
        
         
           <Routes>
-            <Route path="/" element={<Home />}></Route>
+            <Route path="/Home" element={<Home />}></Route>
             <Route path="/Contact" element={<Contact/>}></Route>
             <Route path="/MentionLegale" element={<MentionLegale />}></Route>
             <Route path="/Portfolio" element={<Portfolio/>}></Route>
@@ -27,7 +27,7 @@ const App =()=>{
             <Route path="/Services" element={<Services/>}></Route>
           </Routes>
           
-          <Main/>
+          
         <Footer />
       
 

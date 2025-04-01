@@ -9,45 +9,17 @@ const Conct =()=>{
         <h6>Pour me contacter en vue d'un entretien ou d'une future collaboration
             merci de remplir le champs de formulaire
         </h6>
-        <div class="d-flex flex-row bd-highlight mb-3">gauxche
+        <div class="d-flex flex-row bd-highlight mb-3">
   <div class="p-2 bd-highlight">
     <h4>Formulaire de contact</h4>
     <hr />
-    <InputGroup className="mb-3">
-        <InputGroup.Text id="basic-addon1">Votre nom</InputGroup.Text>
-        <Form.Control
-          placeholder="Username"
-          aria-label="Username"
-          aria-describedby="basic-addon1"
-        />
-      </InputGroup>
+  <form action="#">
+   <p> <input type="Votre-nom"  /></p>
+   <p> <input type="votre-Email" /></p>
+   <p> <input type="Votre numéro de téléphone" /></p>
+   <p><textarea name="votre-message" id="">Votre message</textarea></p>
 
-      <InputGroup className="mb-3">
-        <Form.Control
-          placeholder="Recipient's username"
-          aria-label="Recipient's username"
-          aria-describedby="basic-addon2"
-        />
-     
-      </InputGroup>
-
-      <InputGroup className="mb-3">
-        <InputGroup.Text id="basic-addon3">
-        
-        </InputGroup.Text>
-        <Form.Control id="basic-url" aria-describedby="basic-addon3" />
-      </InputGroup>
-       
-      <InputGroup className="mb-3">
-        <InputGroup.Text>Sujet</InputGroup.Text>
-        <Form.Control aria-label="Amount (to the nearest dollar)" />
-        
-      </InputGroup>
-
-      <InputGroup>
-        <InputGroup.Text>Votre message</InputGroup.Text>
-        <Form.Control as="textarea" aria-label="With textarea" />
-      </InputGroup>
+  </form>
   </div>
   <div class="p-2 bd-highlight">
     <h4>Mes coordonnées</h4>

@@ -1,5 +1,6 @@
 import { ProgressBar } from "react-bootstrap";
 
+
 const Home = ()=> {
 
   return (
@@ -14,6 +15,7 @@ const Home = ()=> {
    <div className="left">
    <div class="p-2 bd-highlight"> <hr />
       <article>
+        <img src="./asset/images" alt="" />
         <h2>à propos de moi</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur explicabo facilis accusamus velit quidem laboriosam labore autem eaque distinctio, blanditiis iure
            excepturi laborum nostrum ad deleniti ullam cumque, sapiente unde?
@@ -46,6 +48,9 @@ const Home = ()=> {
     </div>
     </div>
    </main>
+
+
+
   )
 }
 export default Home
