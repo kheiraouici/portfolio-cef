@@ -13,7 +13,7 @@ const Profilgit =()=>{
   <hr />
   <img src="./assets/images/banners.jpg" alt="" />
  <hr />
- <a href="www.google.map"><img src="" alt="" /></a>
+ <a href="www.google.map"><img src="www.google.maps" alt="" /></a>
  <hr />
  <p>As we all know,John DOE's identity is unknow.I just wanted to contribute without being know</p>
   <hr />

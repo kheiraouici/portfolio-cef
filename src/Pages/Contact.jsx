@@ -14,9 +14,9 @@ const Conct =()=>{
     <h4>Formulaire de contact</h4>
     <hr />
   <form action="#">
-   <p> <input type="Votre-nom"  /></p>
-   <p> <input type="votre-Email" /></p>
-   <p> <input type="Votre numéro de téléphone" /></p>
+   <p> <input type="Votre-nom" value="votre-nom" /></p>
+   <p> <input type="votre-Email" value="votre-email" /></p>
+   <p> <input type="Votre numéro de téléphone" value="votre-numéro-de-téléphone" /></p>
    <p><textarea name="votre-message" id="">Votre message</textarea></p>
 
   </form>
