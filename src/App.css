@@ -27,6 +27,19 @@ button{
   display:flex;
   flex-direction: column;
 }
+/* ecran smartphone*/
 
-  
+ @media screen and (min-width=321px) and (max-witdh=480px) {
+  body{
+    display: flex;
+    flex-direction: column ;
+  }
+ } 
+/* écran tablette*/
+ @media screen  and (min-witdh=768px)and (max-witdh=900px) {
+  body{
+    display: flex;
+    flex-direction: column;
+  }
+ }
 
