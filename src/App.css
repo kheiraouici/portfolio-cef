@@ -10,6 +10,9 @@ background-image:url(./assets/images/banner.jpg) ;
 hr{
   color: blue;
 }
+button{
+  background-color: gray;
+}
 .foot{
   background-color: black;
   color: white;

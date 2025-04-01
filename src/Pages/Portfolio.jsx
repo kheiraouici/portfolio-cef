@@ -7,14 +7,14 @@ const Realisation =() => {
      <h3>Voici quelques unes de mes créations</h3>
      <div class="d-flex flex-row bd-highlight mb-3">
   <div class="p-2 bd-highlight">
-    <img src="" alt="" />
+    <img src="./assets/images/" alt="" />
     <h4>Fresh food</h4>
     <h6>Site de vente de produits frais</h6>
     <button>Voir le site</button>
     <span>site réalisé avec PHP et MYQSL</span>
     </div>
   <div class="p-2 bd-highlight">
-  <img src="" alt="" />
+  <img src="./assets/Images/restaurant-japonais" alt="cuisine-asiatique" />
     <h4>Restaurant Akira</h4>
     <h6>Site de vente de produits frais</h6>
     <button>Voir le site</button>

@@ -11,7 +11,7 @@ const Profilgit =()=>{
   <div class="p-2 bd-highlight">
   <h2>John DOE</h2>
   <hr />
-  <img src="" alt="" />
+  <img src="./assets/images/banners.jpg" alt="" />
  <hr />
  <a href="www.google.map"><img src="" alt="" /></a>
  <hr />
