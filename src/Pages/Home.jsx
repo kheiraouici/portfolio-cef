@@ -8,9 +8,6 @@ const Home = ()=> {
      <div className="project">
       <h1>Bonjour je suis JOHN DOE</h1>
       <h2>Développeur web full stack</h2>
-      <article>
-        <img className="feature" src="./assets/images/hero-bg.jpg" alt="ordinateur" />
-      </article>
      </div>
    <div className="left">
    <div class="p-2 bd-highlight"> <hr />
