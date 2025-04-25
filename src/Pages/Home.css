@@ -1,0 +1,26 @@
+
+.separation{
+    display: flex;
+    flex-direction: row;
+}
+img {
+ width: 150px;
+ height: 150px;
+}
+.project{
+    background-image: url(../../public/assets/images/hero-bg.jpg);
+    width: 1300px;
+    height: 400px;
+    color: white;
+}
+hr{
+    color: blue;
+}
+.left{
+    width: 750px;
+  
+}
+.right{
+ width: 600px;
+ 
+}

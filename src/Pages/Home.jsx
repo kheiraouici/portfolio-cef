@@ -1,4 +1,5 @@
 import { ProgressBar } from "react-bootstrap";
+import "./Home.css"
 
 
 const Home = ()=> {
@@ -9,10 +10,11 @@ const Home = ()=> {
       <h1>Bonjour je suis JOHN DOE</h1>
       <h2>Développeur web full stack</h2>
      </div>
+     <section className="separation">
    <div className="left">
-   <div class="p-2 bd-highlight"> <hr />
+    <hr />
       <article>
-        <img src="./assets/images/john-doe.jpg" alt="" />
+        <img src="assets/images/john-doe-about.jpg" alt="" />
         <h2>à propos de moi</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur explicabo facilis accusamus velit quidem laboriosam labore autem eaque distinctio, blanditiis iure
            excepturi laborum nostrum ad deleniti ullam cumque, sapiente unde?
@@ -22,7 +24,8 @@ const Home = ()=> {
            </p>
       </article>
       </div>
-   <div class="p-2 bd-highlight"> <h2>Compétences</h2>
+      
+   <div class="right"> <h2>Compétences</h2>
     <hr />
     <div className="skills-list">
       <div className="skills-item">
@@ -43,7 +46,7 @@ const Home = ()=> {
         </div>
       </div> 
     </div>
-    </div>
+    </section>
    </main>
 
 

@@ -8,7 +8,7 @@ import MentionLegale from './Pages/MentionLegale'
 import Portfolio from './Pages/Portfolio'
 import ProfilGithub from './Pages/ProfilGithub'
 import Services from './Pages/Services'
-import './App.css'
+
 
 const App =()=>{
   return (

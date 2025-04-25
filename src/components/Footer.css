@@ -1,0 +1,21 @@
+
+.foot{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+
+}
+.foot .icon{
+  width: 20px;
+  height: 20px;
+ 
+}
+.foot .liens{
+  display: flex;
+  flex-direction: column;
+}
+.foot .realisation{
+  display:flex;
+  flex-direction: column;
+}

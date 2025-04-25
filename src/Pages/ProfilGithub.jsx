@@ -1,19 +1,20 @@
+import "./ProfilGithub.css"
+
 const Profilgit =()=>{
     return(
         <>
         <img className="bordereau" src="./assets/images/banner.jpg" alt="banniere" />
         <div>
+            <section className="back">
         <div class="d-flex flex-row bd-highlight mb-3">
             <h1>Mon profil Github</h1>
   <div class="p-2 bd-highlight">
-    <img className="profilGithubA" src="./assets/images/banner.jpg" alt="" />
+    
   </div>
   <div class="p-2 bd-highlight">
   <h2>John DOE</h2>
   <hr />
-  <img className="profilGithub2" src="" alt="" />
- <hr />
- <a href="www.google.map"><img src="www.google.maps" alt="" /></a>
+ <a href="http://www.google/map"></a>
  <hr />
  <p>As we all know,John DOE's identity is unknow.I just wanted to contribute without being know</p>
   <hr />
@@ -23,7 +24,9 @@ const Profilgit =()=>{
   </div>
   
 </div>  
+</section>
         </div>
+       
         </>
     )
 }

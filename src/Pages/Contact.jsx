@@ -1,10 +1,12 @@
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
+import "./Contact.css"
 
 
 const Conct =()=>{
     return(
         <>
+        <section className='contacte'>
         <h1>Contact</h1>
         <h6>Pour me contacter en vue d'un entretien ou d'une future collaboration
             merci de remplir le champs de formulaire
@@ -32,6 +34,7 @@ const Conct =()=>{
                 
   </div>
 </div>
+</section>
         </>
     )
 }

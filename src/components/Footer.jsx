@@ -1,4 +1,5 @@
 import Nav from 'react-bootstrap/Nav';
+import "./Footer.css"
 
 const Footer = ()=> {
 
@@ -13,6 +14,9 @@ const Footer = ()=> {
                 <address>69009 Lyon France</address>
                 <address>1020304050</address>
                 <address>johndoe@gmail.com</address>
+                <Nav.Link href="http://www.github.com"><img className='icon' src="/assets/images/githubicon.png" alt="icon" /></Nav.Link> 
+                <Nav.Link href="http://x.com"><img className='icon' src="/assets/images/twitter.png" alt="icon" /></Nav.Link> 
+                <Nav.Link href="http://linkedin.com"><img className='icon' src="/assets/images/linkedin.png" alt="icon" /></Nav.Link>
                
                </article>
                <article className="liens">
