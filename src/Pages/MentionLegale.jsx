@@ -3,7 +3,7 @@ import Accordion from 'react-bootstrap/Accordion';
 
 function MentionLegale () {
   return (
-    <><div><h1>Mentions légales</h1></div>
+    <><div id='accordeon'><h1>Mentions légales</h1>
     <hr />
 
     <Accordion defaultActiveKey="0">
@@ -38,7 +38,7 @@ function MentionLegale () {
 
        </Accordion>
      
-  
+   </div>
 
     </>
    

@@ -1,7 +1,45 @@
 hr{
     color: blue;
+    
 }
-#contact{
+#contacte{
     width: 1200px;
     height: 1000px;
+    display: flex;
+    justify-content: center;
+}
+h6{
+    display: flex;
+    justify-content: center;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content:space-around;
+    padding-inline: 150px;
+}
+#box{
+    width: 150px;
+    height: 300px;
+}
+.maps{
+    width: 150px;
+    height: 200px;
+}
+.formulaire{
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    border-color: grey;
+}
+.coordonnées{
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    border-color: gray;
+}
+input{
+    height: 25px;
+    width: 250px;
 }

@@ -9,13 +9,17 @@ const Home = ()=> {
      <div className="project">
       <h1>Bonjour je suis JOHN DOE</h1>
       <h2>Développeur web full stack</h2>
+      <button>en savoir plus</button>
      </div>
      <section className="separation">
    <div className="left">
-    <hr />
+
       <article>
-        <img src="assets/images/john-doe-about.jpg" alt="" />
+
         <h2>à propos de moi</h2>
+        <hr />
+        <img src="assets/images/john-doe-about.jpg" alt="" />
+        
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur explicabo facilis accusamus velit quidem laboriosam labore autem eaque distinctio, blanditiis iure
            excepturi laborum nostrum ad deleniti ullam cumque, sapiente unde?
           Lorem ipsum dolor sit amet consectetur adipisicing elit.

@@ -5,6 +5,7 @@ const Realisation =() => {
      
      <h1>Portfolio</h1>
      <h3>Voici quelques unes de mes créations</h3>
+     <section className="gestion">
      <div class="d-flex flex-row bd-highlight mb-3">
   <div class="p-2 bd-highlight">
     <img className="portfolio" src="./assets/images/portfolio/fresh-food.jpg" alt="fruits-legumes" />
@@ -51,6 +52,7 @@ const Realisation =() => {
     <span>Réalisation avec figma</span>
   </div>
 </div>
+</section>
      </>
     )
 }

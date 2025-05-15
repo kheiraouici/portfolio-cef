@@ -2,25 +2,45 @@
 .separation{
     display: flex;
     flex-direction: row;
+    padding-left: 150px;
+    padding-right: 150px;
+    border: 2px;
+    border-color: grey;
 }
 img {
- width: 150px;
- height: 150px;
+ width: 400px;
+ height: 250px;
 }
 .project{
-    background-image: url(../../public/assets/images/hero-bg.jpg);
-    width: 1300px;
-    height: 400px;
+    background-image: url(../../assets/images/hero-bg.jpg);
+    width: 1250px;
+    height: 350px;
     color: white;
+    
+}
+.project h2{
+    display: flex;
+    justify-content: center;
+}
+.project button{
+    background-color: red;
+    color: white ;
+    display: flex;
+    flex-direction: inherit;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    
 }
 hr{
     color: blue;
 }
 .left{
-    width: 750px;
-  
+    width: 450px;
+    
 }
 .right{
- width: 600px;
+ width: 500px;
  
 }

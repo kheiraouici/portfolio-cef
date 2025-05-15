@@ -5,3 +5,11 @@
 button{
   background-color: gray;
 }
+.gestion{
+  justify-content: center;
+  padding-left: 150px;
+}
+h3{
+  display: flex;
+  justify-content: center;
+}
